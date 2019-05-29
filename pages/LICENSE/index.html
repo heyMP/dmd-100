@@ -1,0 +1,25 @@
+<h1>OER License</h1>
+<p>This OER book is licensed as <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>. Some content is taken from other sources and cited throughout. However, this work is a living draft, presented as is, and may be changed or updated without notice.</p>
+<h2>Attribution</h2>
+<p>You are welcomed and encouraged to use the content in this book for your own teaching needs.  At a minimum, please provide attribution via html source schema, see below for usage. Use the <a href="https://search.google.com/structured-data/testing-tool/u/0/">Google Structured Data Testing tool</a> to test that the schema is functioning properly. More information can be found on <a href="http://oerschema.org">OERSchema.org</a>.</p>
+<p>If your publishing method prohibits schema, please use the visible attribution method provided.</p>
+<h3>OER Schema metadata attribution:</h3>
+<p>Add <a href="http://oerschema.org">OER Schema</a> and CC License to HTML source:</p>
+<pre><code>&lt;!-- Add OERSchema and CC schema vocabulary to object --&gt;
+&lt;div prefix=&quot;oer: http://oerschema.org/ cc:http://creativecommons.org/ns dc:http://purl.org/dc/terms/&quot; resource=&quot;#oer-source&quot;&gt;
+
+
+
+        &lt;!-- Add OER resource text and media here. --&gt;
+
+
+        &lt;!-- Link the license and attribution to the page --&gt;
+        &lt;link about=&quot;#oer-source&quot; property=&quot;cc:license&quot; content=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;
+        &lt;meta about=&quot;#oer-source&quot; property=&quot;cc:attributionUrl&quot; content=&quot;https://www.gitbook.com/book/dmd-program/dmd-100-fa18&quot;&gt;
+        &lt;meta about=&quot;#oer-source&quot; property=&quot;cc:attributionName&quot; typeof=&quot;oer:Resource&quot; content=&quot;Michael Collins&quot;&gt;
+
+&lt;/div&gt;
+</code></pre>
+<h3>Visible attribution</h3>
+<p>“<a href="https://www.gitbook.com/book/dmd-program/dmd-100-fa18/details">DMD 100: Digital Multimedia Design Foundations</a>” by Michael Collins is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>.</p>
+<p><code>“&lt;a href=&quot;https://github.com/dmd-program/dmd-100-fa18&quot;&gt;DMD 100: Digital Multimedia Design Foundations&lt;/a&gt;” by Michael Collins is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;CC-BY-4.0&lt;/a&gt;.</code></p>

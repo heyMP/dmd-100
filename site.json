@@ -1,6 +1,6 @@
 {
     "id": "0cf4b060-1482-4547-88a7-5cc6b7dd1e17",
-    "title": "dmd-100",
+    "title": "",
     "author": "",
     "description": "",
     "license": "by-sa",
@@ -11,10 +11,10 @@
         "updated": 1559132814,
         "theme": {
             "element": "learn-two-theme",
-            "path": "@lrnwebcomponents\/learn-two-theme\/learn-two-theme.js",
+            "path": "@lrnwebcomponents/learn-two-theme/learn-two-theme.js",
             "name": "Learn"
         },
-        "image": "assets\/banner.jpg",
+        "image": "assets/banner.jpg",
         "hexCode": "#aeff00",
         "cssVariable": "",
         "publishing": {
@@ -24,55 +24,903 @@
             }
         },
         "dynamicElementLoader": {
-            "a11y-gif-player": "@lrnwebcomponents\/a11y-gif-player\/a11y-gif-player.js",
-            "code-sample": "@lrnwebcomponents\/code-sample\/code-sample.js",
-            "citation-element": "@lrnwebcomponents\/citation-element\/citation-element.js",
-            "hero-banner": "@lrnwebcomponents\/hero-banner\/hero-banner.js",
-            "image-compare-slider": "@lrnwebcomponents\/image-compare-slider\/image-compare-slider.js",
-            "license-element": "@lrnwebcomponents\/license-element\/license-element.js",
-            "lrn-aside": "@lrnwebcomponents\/lrn-aside\/lrn-aside.js",
-            "lrn-calendar": "@lrnwebcomponents\/lrn-calendar\/lrn-calendar.js",
-            "lrn-math": "@lrnwebcomponents\/lrn-math\/lrn-math.js",
-            "lrn-table": "@lrnwebcomponents\/lrn-table\/lrn-table.js",
-            "lrn-vocab": "@lrnwebcomponents\/lrn-vocab\/lrn-vocab.js",
-            "lrndesign-blockquote": "@lrnwebcomponents\/lrndesign-blockquote\/lrndesign-blockquote.js",
-            "magazine-cover": "@lrnwebcomponents\/magazine-cover\/magazine-cover.js",
-            "media-behaviors": "@lrnwebcomponents\/media-behaviors\/media-behaviors.js",
-            "media-image": "@lrnwebcomponents\/media-image\/media-image.js",
-            "meme-maker": "@lrnwebcomponents\/meme-maker\/meme-maker.js",
-            "grid-plate": "@lrnwebcomponents\/grid-plate\/grid-plate.js",
-            "md-block": "@lrnwebcomponents\/md-block\/md-block.js",
-            "multiple-choice": "@lrnwebcomponents\/multiple-choice\/multiple-choice.js",
-            "paper-audio-player": "@lrnwebcomponents\/paper-audio-player\/paper-audio-player.js",
-            "person-testimonial": "@lrnwebcomponents\/person-testimonial\/person-testimonial.js",
-            "place-holder": "@lrnwebcomponents\/place-holder\/place-holder.js",
-            "q-r": "@lrnwebcomponents\/q-r\/q-r.js",
-            "full-width-image": "@lrnwebcomponents\/full-width-image\/full-width-image.js",
-            "self-check": "@lrnwebcomponents\/self-check\/self-check.js",
-            "simple-concept-network": "@lrnwebcomponents\/simple-concept-network\/simple-concept-network.js",
-            "stop-note": "@lrnwebcomponents\/stop-note\/stop-note.js",
-            "tab-list": "@lrnwebcomponents\/tab-list\/tab-list.js",
-            "task-list": "@lrnwebcomponents\/task-list\/task-list.js",
-            "video-player": "@lrnwebcomponents\/video-player\/video-player.js",
-            "wave-player": "@lrnwebcomponents\/wave-player\/wave-player.js",
-            "wikipedia-query": "@lrnwebcomponents\/wikipedia-query\/wikipedia-query.js",
-            "lrndesign-gallery": "@lrnwebcomponents\/lrndesign-gallery\/lrndesign-gallery.js",
-            "lrndesign-timeline": "@lrnwebcomponents\/lrndesign-timeline\/lrndesign-timeline.js"
+            "a11y-gif-player": "@lrnwebcomponents/a11y-gif-player/a11y-gif-player.js",
+            "code-sample": "@lrnwebcomponents/code-sample/code-sample.js",
+            "citation-element": "@lrnwebcomponents/citation-element/citation-element.js",
+            "hero-banner": "@lrnwebcomponents/hero-banner/hero-banner.js",
+            "image-compare-slider": "@lrnwebcomponents/image-compare-slider/image-compare-slider.js",
+            "license-element": "@lrnwebcomponents/license-element/license-element.js",
+            "lrn-aside": "@lrnwebcomponents/lrn-aside/lrn-aside.js",
+            "lrn-calendar": "@lrnwebcomponents/lrn-calendar/lrn-calendar.js",
+            "lrn-math": "@lrnwebcomponents/lrn-math/lrn-math.js",
+            "lrn-table": "@lrnwebcomponents/lrn-table/lrn-table.js",
+            "lrn-vocab": "@lrnwebcomponents/lrn-vocab/lrn-vocab.js",
+            "lrndesign-blockquote": "@lrnwebcomponents/lrndesign-blockquote/lrndesign-blockquote.js",
+            "magazine-cover": "@lrnwebcomponents/magazine-cover/magazine-cover.js",
+            "media-behaviors": "@lrnwebcomponents/media-behaviors/media-behaviors.js",
+            "media-image": "@lrnwebcomponents/media-image/media-image.js",
+            "meme-maker": "@lrnwebcomponents/meme-maker/meme-maker.js",
+            "grid-plate": "@lrnwebcomponents/grid-plate/grid-plate.js",
+            "md-block": "@lrnwebcomponents/md-block/md-block.js",
+            "multiple-choice": "@lrnwebcomponents/multiple-choice/multiple-choice.js",
+            "paper-audio-player": "@lrnwebcomponents/paper-audio-player/paper-audio-player.js",
+            "person-testimonial": "@lrnwebcomponents/person-testimonial/person-testimonial.js",
+            "place-holder": "@lrnwebcomponents/place-holder/place-holder.js",
+            "q-r": "@lrnwebcomponents/q-r/q-r.js",
+            "full-width-image": "@lrnwebcomponents/full-width-image/full-width-image.js",
+            "self-check": "@lrnwebcomponents/self-check/self-check.js",
+            "simple-concept-network": "@lrnwebcomponents/simple-concept-network/simple-concept-network.js",
+            "stop-note": "@lrnwebcomponents/stop-note/stop-note.js",
+            "tab-list": "@lrnwebcomponents/tab-list/tab-list.js",
+            "task-list": "@lrnwebcomponents/task-list/task-list.js",
+            "video-player": "@lrnwebcomponents/video-player/video-player.js",
+            "wave-player": "@lrnwebcomponents/wave-player/wave-player.js",
+            "wikipedia-query": "@lrnwebcomponents/wikipedia-query/wikipedia-query.js",
+            "lrndesign-gallery": "@lrnwebcomponents/lrndesign-gallery/lrndesign-gallery.js",
+            "lrndesign-timeline": "@lrnwebcomponents/lrndesign-timeline/lrndesign-timeline.js"
         }
     },
     "items": [
         {
-            "id": "item-5b004523-0d2c-413b-b483-931e0081d630",
-            "indent": 0,
-            "location": "pages\/item-5b004523-0d2c-413b-b483-931e0081d630\/index.html",
-            "order": 0,
+            "id": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "title": "Introduction",
+            "location": "pages/README/index.html",
             "parent": null,
-            "title": "New page",
-            "description": "",
-            "metadata": {
-                "created": 1559132793,
-                "updated": 1559132793
-            }
+            "order": 0
+        },
+        {
+            "id": "rlEnWbQuBodS49djcSTl9nY1M5TqSfEJ",
+            "title": "About this course",
+            "location": "pages/introduction/about-this-course/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 0
+        },
+        {
+            "id": "JGOEHGBBXxrcbnbCyWmJAqSqL6nZIsnQ",
+            "title": "Digital Multimedia Design",
+            "location": "pages/introduction/digital_multimedia_design/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 1
+        },
+        {
+            "id": "YJu1z9IFD2k7dDFPnylWEGyRYJeRopTo",
+            "title": "Course instructor",
+            "location": "pages/introduction/instructor/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 2
+        },
+        {
+            "id": "yE9jUTyON0HGefuAXbtMMSSVfh21dN5Y",
+            "title": "Measuring success",
+            "location": "pages/introduction/measuring_success/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 3
+        },
+        {
+            "id": "AUdi8CgJsU0x057bfZZthGk9YP4nKsQv",
+            "title": "Learning objectives",
+            "location": "pages/introduction/learning-objectives/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 4
+        },
+        {
+            "id": "DrQAZt90d3RhGbxXPGVRUbl40THw8QkB",
+            "title": "Projects",
+            "location": "pages/introduction/projects/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 5
+        },
+        {
+            "id": "dmhmmZHZZCMr7JzVg7PbbMhnsykY74mG",
+            "title": "Feedback and critique",
+            "location": "pages/introduction/feedback-and-critique/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 6
+        },
+        {
+            "id": "AzoXqD6bJNLFCjojw6Wt1hoSrpbZrnEh",
+            "title": "Technology",
+            "location": "pages/introduction/technology/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 7
+        },
+        {
+            "id": "KCiTxIHsdiudXNMao1NsM1AUViNa7iUE",
+            "title": "Writing Guidelines",
+            "location": "pages/introduction/writing_guidelines/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 8
+        },
+        {
+            "id": "vgQnvgZaPHM3hLDrcYJkDQlsdRz299rJ",
+            "title": "Requirements",
+            "location": "pages/introduction/requirements/index.html",
+            "parent": "vIhMHZLnouWXUV9GH2nBzBUFFfoIK6T5",
+            "order": 9
+        },
+        {
+            "id": "FBNd5OgI32Bv0Zm6Dl165ph0lRDN9nRE",
+            "title": "Lesson 1: What is design?",
+            "location": "pages/lessons/introduction-what-is-design/index.html",
+            "parent": null,
+            "order": 1
+        },
+        {
+            "id": "lr4OWtbiNF1iLkIUwCG6iieHkkO2but3",
+            "title": "Topics",
+            "location": "pages/lessons/introduction-what-is-design/topics/index.html",
+            "parent": "FBNd5OgI32Bv0Zm6Dl165ph0lRDN9nRE",
+            "order": 0
+        },
+        {
+            "id": "PiS3zjjakRzeqhVNrnMJ2Dojy3nGtIyV",
+            "title": "What is design?",
+            "location": "pages/topics/what_is_design/index.html",
+            "parent": "lr4OWtbiNF1iLkIUwCG6iieHkkO2but3",
+            "order": 0
+        },
+        {
+            "id": "V4leq3Sh5RHVdIIC6sR2jlS7hzXZpRAC",
+            "title": "Design thinking",
+            "location": "pages/topics/design_thinking/index.html",
+            "parent": "lr4OWtbiNF1iLkIUwCG6iieHkkO2but3",
+            "order": 1
+        },
+        {
+            "id": "NyhVcNGEubexseY6l0SqnXS9kNMRaIzV",
+            "title": "Systems thinking",
+            "location": "pages/topics/systems_thinking/index.html",
+            "parent": "lr4OWtbiNF1iLkIUwCG6iieHkkO2but3",
+            "order": 2
+        },
+        {
+            "id": "Qw0pYm1W0eCrlHfXYaQWhVfQY1ZzN3Tf",
+            "title": "Critical thinking",
+            "location": "pages/topics/critical_thinking/index.html",
+            "parent": "lr4OWtbiNF1iLkIUwCG6iieHkkO2but3",
+            "order": 3
+        },
+        {
+            "id": "217R9Ici12m6XT29J818GUSM47jxuHLE",
+            "title": "Design process",
+            "location": "pages/topics/design-process/index.html",
+            "parent": "lr4OWtbiNF1iLkIUwCG6iieHkkO2but3",
+            "order": 4
+        },
+        {
+            "id": "qUgnpZtrsP1rs3CsJnfHzCdByugEcPP0",
+            "title": "Readings\n\n",
+            "location": "pages/9dkwhUGZObRIj4cxx1oXi9Bobb5h8kr7/index.html",
+            "parent": "FBNd5OgI32Bv0Zm6Dl165ph0lRDN9nRE",
+            "order": 1
+        },
+        {
+            "id": "wwbTICrb57WFirFT3Bp2TI8tmpI2vCXE",
+            "title": "Chapter 1&2. Sen Rikyu and the Paradox of Innovation",
+            "location": "pages/reading-reflections/chapter_1_sen_rikyu_and_the_paradox_of_innovation/index.html",
+            "parent": "qUgnpZtrsP1rs3CsJnfHzCdByugEcPP0",
+            "order": 0
+        },
+        {
+            "id": "kKDsy4QOqjwtutlKFozqYxcpKjNnyNMb",
+            "title": "Activities\n\n",
+            "location": "pages/i3mPcGGkgbYGfU2LoFOD4mAeo8EXmD8i/index.html",
+            "parent": "FBNd5OgI32Bv0Zm6Dl165ph0lRDN9nRE",
+            "order": 2
+        },
+        {
+            "id": "fImAe2aobR9t2wbguxfO7Gafjc38GYqP",
+            "title": "Daily design journal",
+            "location": "pages/practice/daily_design_journal/index.html",
+            "parent": "kKDsy4QOqjwtutlKFozqYxcpKjNnyNMb",
+            "order": 0
+        },
+        {
+            "id": "OOxOf5mvKnxbLF8cJKfg3Mr5MgRyPexx",
+            "title": "Daily design journal: Report in",
+            "location": "pages/practice/daily-design-journal-report-in/index.html",
+            "parent": "kKDsy4QOqjwtutlKFozqYxcpKjNnyNMb",
+            "order": 1
+        },
+        {
+            "id": "ix0t45xZbT8dxzhgAHeyCBELcoXVDvS3",
+            "title": "Listen\n\n",
+            "location": "pages/vbZQrNGVpBGREQbpXAbeby49lZiiULeW/index.html",
+            "parent": "FBNd5OgI32Bv0Zm6Dl165ph0lRDN9nRE",
+            "order": 3
+        },
+        {
+            "id": "Fsq2Q9eHhVRKbfbHdD5MX4UVFdRmnq5H",
+            "title": "Creative Mornings: Design Is Magical",
+            "location": "pages/listening/creative_mornings_design_is_magical/index.html",
+            "parent": "ix0t45xZbT8dxzhgAHeyCBELcoXVDvS3",
+            "order": 0
+        },
+        {
+            "id": "OCiN3jwlGe8B9uBGyBbsctyxqRftoiAi",
+            "title": "99 Percent Invisible: Lawn Order",
+            "location": "pages/listening/lawn_order/index.html",
+            "parent": "ix0t45xZbT8dxzhgAHeyCBELcoXVDvS3",
+            "order": 1
+        },
+        {
+            "id": "x1n6FhZHmnispoCmb9tdQuKWhMQum7dX",
+            "title": "Discussions\n\n",
+            "location": "pages/7FCgcwvMWGSSZ7YcfYQiqaJmJmxxTiFZ/index.html",
+            "parent": "FBNd5OgI32Bv0Zm6Dl165ph0lRDN9nRE",
+            "order": 4
+        },
+        {
+            "id": "yl4nkb7nEGbc1cFXG46nY6WsYg05J9hB",
+            "title": "End of lesson discussion",
+            "location": "pages/lessons/what-is-design/end_of_lesson_discussion/index.html",
+            "parent": "x1n6FhZHmnispoCmb9tdQuKWhMQum7dX",
+            "order": 0
+        },
+        {
+            "id": "AALyRUhhb8GGv67GMPl4v565PIJVDVAx",
+            "title": "Lesson 2: Visual and interaction design",
+            "location": "pages/lessons/introduction-visual-and-interaction-design/index.html",
+            "parent": null,
+            "order": 2
+        },
+        {
+            "id": "Rr1dnP9Er97ZMv3NoyTxYASrcbpszH19",
+            "title": "Topics\n\n",
+            "location": "pages/rXWYznjrMGrtgkCYxPG4W8pOZ1Fy1pKL/index.html",
+            "parent": "AALyRUhhb8GGv67GMPl4v565PIJVDVAx",
+            "order": 0
+        },
+        {
+            "id": "dzgiodad685CIHdLtIFW6RNgpxJgOjcZ",
+            "title": "Semiotics",
+            "location": "pages/topics/semiotics/index.html",
+            "parent": "Rr1dnP9Er97ZMv3NoyTxYASrcbpszH19",
+            "order": 0
+        },
+        {
+            "id": "S8truyCNWrcMzk1wRHrQzrCFGgM4gmMg",
+            "title": "Inclusive design",
+            "location": "pages/topics/inclusive-design/index.html",
+            "parent": "Rr1dnP9Er97ZMv3NoyTxYASrcbpszH19",
+            "order": 1
+        },
+        {
+            "id": "x6eFTWMqmYQaNQpYXXtGtzU4adKUfJ1f",
+            "title": "Interaction design",
+            "location": "pages/topics/interaction_design/index.html",
+            "parent": "Rr1dnP9Er97ZMv3NoyTxYASrcbpszH19",
+            "order": 2
+        },
+        {
+            "id": "MK90DFv8nXncpdQxPlST6cwsPAVNIJGP",
+            "title": "Critical design",
+            "location": "pages/topics/critical_design/index.html",
+            "parent": "Rr1dnP9Er97ZMv3NoyTxYASrcbpszH19",
+            "order": 3
+        },
+        {
+            "id": "IYHUBt9WYFmHFTETkdS1jHtPo88kR14p",
+            "title": "Visual design",
+            "location": "pages/topics/visual_design/index.html",
+            "parent": "Rr1dnP9Er97ZMv3NoyTxYASrcbpszH19",
+            "order": 4
+        },
+        {
+            "id": "wrGtUwZcVPFakJMHbBpiwsuoDXfBkn3N",
+            "title": "Identity design",
+            "location": "pages/topics/identity-design/index.html",
+            "parent": "Rr1dnP9Er97ZMv3NoyTxYASrcbpszH19",
+            "order": 5
+        },
+        {
+            "id": "uuZD6cFzU7SBZgYpmtgdZkTYlflPVysR",
+            "title": "Readings\n\n",
+            "location": "pages/7uwdvsUVjhZkK6kNdr1zKHeLpozLKOsA/index.html",
+            "parent": "AALyRUhhb8GGv67GMPl4v565PIJVDVAx",
+            "order": 1
+        },
+        {
+            "id": "rOMii4Oi17kaIz0y5kqmvZ4ZDv6XkTeg",
+            "title": "Chapter 3. What Design and Truth Say About Each Other",
+            "location": "pages/reading-reflections/chapter_3_what_design_and_truth_say_about_each_other/index.html",
+            "parent": "uuZD6cFzU7SBZgYpmtgdZkTYlflPVysR",
+            "order": 0
+        },
+        {
+            "id": "yeP9hPejvDctQpUA1z5sq29aEAQFuqV0",
+            "title": "Chapter 4. Design as Tragedy: The Rise and Fall of the Twin Towers",
+            "location": "pages/reading-reflections/chapter-4-design-as-tragedy-the-rise-and-fall-of-the-twin-towers/index.html",
+            "parent": "uuZD6cFzU7SBZgYpmtgdZkTYlflPVysR",
+            "order": 1
+        },
+        {
+            "id": "tfsusY0QyT8VJfBUsmgOXwJsMmLT40lJ",
+            "title": "Chapter 5. Edsel's Law: How Bad Design Happens",
+            "location": "pages/reading-reflections/chapter_5_edsels_law_how_bad_design_happens/index.html",
+            "parent": "uuZD6cFzU7SBZgYpmtgdZkTYlflPVysR",
+            "order": 2
+        },
+        {
+            "id": "ZgDPcA3wfKO6ePzscykvxIQnArqnoJVj",
+            "title": "Chapter 6. Designs of Darkness",
+            "location": "pages/reading-reflections/chapter_6_designs_of_darkness/index.html",
+            "parent": "uuZD6cFzU7SBZgYpmtgdZkTYlflPVysR",
+            "order": 3
+        },
+        {
+            "id": "YOuki7zbiPKDr46klRmukgFRkGG1TP7m",
+            "title": "Chapter 7. Face to Face with Design",
+            "location": "pages/reading-reflections/chapter_7_face_to_face_with_design/index.html",
+            "parent": "uuZD6cFzU7SBZgYpmtgdZkTYlflPVysR",
+            "order": 4
+        },
+        {
+            "id": "hD32zmNFoaMulkxbccmWLvxppPUy5FMT",
+            "title": "Watch",
+            "location": "pages/lessons/introduction-visual-and-interaction-design/watch/index.html",
+            "parent": "AALyRUhhb8GGv67GMPl4v565PIJVDVAx",
+            "order": 2
+        },
+        {
+            "id": "jQEozwitMAOFi48dltbb5E7J7H6aBHJF",
+            "title": "VOX: It's not you. Bad doors are everywhere.",
+            "location": "pages/lessons/introduction-visual-and-interaction-design/vox-its-not-you-bad-doors-are-everywhere/index.html",
+            "parent": "hD32zmNFoaMulkxbccmWLvxppPUy5FMT",
+            "order": 0
+        },
+        {
+            "id": "geIh15zUy0nZNLRu4icV8XLmptDlXyim",
+            "title": "Listen\n\n",
+            "location": "pages/Q7VHosrZ2HWHDXxK4PpcJzG88TpKOsWJ/index.html",
+            "parent": "AALyRUhhb8GGv67GMPl4v565PIJVDVAx",
+            "order": 3
+        },
+        {
+            "id": "ZbNgpO1uYfkRU6AuoClPet5yXOTO1mXH",
+            "title": "99 Percent Invisible: On Average",
+            "location": "pages/listening/99-percent-invisible-on-average/index.html",
+            "parent": "geIh15zUy0nZNLRu4icV8XLmptDlXyim",
+            "order": 0
+        },
+        {
+            "id": "wNBbI5bFSQSw3bASzfzzTpdtgggxyWHs",
+            "title": "99 Percent Invisible: 10,000 Years",
+            "location": "pages/listening/99_percent_invisible_10,000_years/index.html",
+            "parent": "geIh15zUy0nZNLRu4icV8XLmptDlXyim",
+            "order": 1
+        },
+        {
+            "id": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "title": "Project\n\n",
+            "location": "pages/MKnT41hGSWaaEl8yt1zOdi6mGsmPYjL0/index.html",
+            "parent": "AALyRUhhb8GGv67GMPl4v565PIJVDVAx",
+            "order": 4
+        },
+        {
+            "id": "PQVocrSAZERWfZGDD6mpmSNIJ9wYsjl8",
+            "title": "Ritual Project Introduction",
+            "location": "pages/projects/ritual/ritual_project/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 0
+        },
+        {
+            "id": "HuZnoEzRATsuWeFetYz8nlb40OKSbCWQ",
+            "title": "Discover: Interview",
+            "location": "pages/projects/ritual/ritual_interview/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 1
+        },
+        {
+            "id": "FuUcvIJ3Pz9PJWXCSWnOT4iHoduCds2E",
+            "title": "Define: Themes and insights",
+            "location": "pages/projects/ritual/define-insights/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 2
+        },
+        {
+            "id": "4ATM9PzM7Rf5pUisRzuO3pzj69i2FOrd",
+            "title": "Define: HMW",
+            "location": "pages/projects/ritual/define_hmw/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 3
+        },
+        {
+            "id": "JGjgN2Am40VziRCXksPoRtAUr8rGOhff",
+            "title": "Develop: Brainstorm",
+            "location": "pages/projects/ritual/develop-brainstorm/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 4
+        },
+        {
+            "id": "fRU0gHxUoZgGzjEPDwYSsjv4ZV7ZZdnu",
+            "title": "Develop: Storyboard",
+            "location": "pages/projects/ritual/develop_storyboard/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 5
+        },
+        {
+            "id": "7hfgMEgDg7xZUbtNgaX0oucua7F033uc",
+            "title": "InvisionApp tutorials",
+            "location": "pages/projects/invisionapp-tutorial/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 6
+        },
+        {
+            "id": "cECGCdHH8ut3skhGJnxrmW1XcZ5JNf5z",
+            "title": "Develop: Interactive wireframes",
+            "location": "pages/projects/ritual/develop_prototype/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 7
+        },
+        {
+            "id": "aUN3qSfcyC6fODNTdkFFguLa9mVqjDlI",
+            "title": "Develop: Test and review",
+            "location": "pages/projects/ritual/develop_test_and_review/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 8
+        },
+        {
+            "id": "Ws2VK9oQyPbQE0SuGXdZB4sCrBFHeopU",
+            "title": "Develop: Iterate wireframes",
+            "location": "pages/projects/ritual/develop-iterate-prototype/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 9
+        },
+        {
+            "id": "8fbkNKWg5HUnGGpF2C8aX7AihKdntBPA",
+            "title": "Deliver: Final prototype",
+            "location": "pages/projects/ritual/deliver-final-prototype/index.html",
+            "parent": "6Vln4wuImgQ6SXP5ZpoGae7wni1WqBwH",
+            "order": 10
+        },
+        {
+            "id": "O2iwCT9XrwIVN8jynbHamIz0Gk0Du6wD",
+            "title": "Lesson 3: Storytelling",
+            "location": "pages/lessons/introduction-storytelling/index.html",
+            "parent": null,
+            "order": 3
+        },
+        {
+            "id": "YF3CsHy4uKPDlazQsIlrSkWGNPALruWQ",
+            "title": "Topics\n\n",
+            "location": "pages/G5V69b3AsbsqpWQiF4jtSh9cbED1pE6A/index.html",
+            "parent": "O2iwCT9XrwIVN8jynbHamIz0Gk0Du6wD",
+            "order": 0
+        },
+        {
+            "id": "12mrgyOJCjZyPgptcNuqjBLi508zBxQ5",
+            "title": "Why stories?",
+            "location": "pages/topics/narrative/index.html",
+            "parent": "YF3CsHy4uKPDlazQsIlrSkWGNPALruWQ",
+            "order": 0
+        },
+        {
+            "id": "9ua9Lk1Xi7vIAoK1nJNu3KD0DjVynZg8",
+            "title": "Story structure",
+            "location": "pages/topics/narrative_structure/index.html",
+            "parent": "YF3CsHy4uKPDlazQsIlrSkWGNPALruWQ",
+            "order": 1
+        },
+        {
+            "id": "CICvyHpcjZGngUyiadKkqABkqAFvSdY4",
+            "title": "Story development",
+            "location": "pages/topics/organizing_story_development/index.html",
+            "parent": "YF3CsHy4uKPDlazQsIlrSkWGNPALruWQ",
+            "order": 2
+        },
+        {
+            "id": "OgoSRK0iklAQOTvFTuc6VIvrYo1ICfmd",
+            "title": "Character",
+            "location": "pages/topics/character/index.html",
+            "parent": "YF3CsHy4uKPDlazQsIlrSkWGNPALruWQ",
+            "order": 3
+        },
+        {
+            "id": "SpkVsszqQInObKee1sOx8pCBQy3bXv22",
+            "title": "Narrative media",
+            "location": "pages/topics/narrative-media/index.html",
+            "parent": "YF3CsHy4uKPDlazQsIlrSkWGNPALruWQ",
+            "order": 4
+        },
+        {
+            "id": "5iVfmxy974sFNOB7PbBfP6yJ7GjRj4qD",
+            "title": "Readings\n\n",
+            "location": "pages/urb7ucQQDcl4TclKYdghVzM2YqGmbDbr/index.html",
+            "parent": "O2iwCT9XrwIVN8jynbHamIz0Gk0Du6wD",
+            "order": 1
+        },
+        {
+            "id": "Cm6hCJ7H8PNpH8YteHJvux0sfYxzw0Xc",
+            "title": "Chapter 8. Giorgio Vasari and the Permutations of Design",
+            "location": "pages/reading-reflections/chapter_8_giorgio_vasari_and_the_permutations_of_design/index.html",
+            "parent": "5iVfmxy974sFNOB7PbBfP6yJ7GjRj4qD",
+            "order": 0
+        },
+        {
+            "id": "vEYGcUur00zGz7UywPPBrFX4vTNuH9oY",
+            "title": "Chapter 9. The Lady in the Picture: Design and Revelation in Renaissance Art",
+            "location": "pages/reading-reflections/chapter_9_the_lady_in_the_picture_design_and_revelation_in_r/index.html",
+            "parent": "5iVfmxy974sFNOB7PbBfP6yJ7GjRj4qD",
+            "order": 1
+        },
+        {
+            "id": "rqQNWn2kyVRPEKYzy7a51WlZfj8KUF5k",
+            "title": "Chapter 10. In Jefferson's Footsteps: Modes of Self-Design",
+            "location": "pages/reading-reflections/chapter_10_in_jeffersons_footsteps_modes_of_self-design/index.html",
+            "parent": "5iVfmxy974sFNOB7PbBfP6yJ7GjRj4qD",
+            "order": 2
+        },
+        {
+            "id": "n9hNmjgyJj7eoxkeNm5lZ296bJRH7330",
+            "title": "Watch\n\n",
+            "location": "pages/LyiiYLBLeMhoavy4q34Iz6r8FeZIgVpf/index.html",
+            "parent": "O2iwCT9XrwIVN8jynbHamIz0Gk0Du6wD",
+            "order": 2
+        },
+        {
+            "id": "Nc7nHNTwcAj8GwKiTkHsTOJ5YGbAvvS4",
+            "title": "Creative Mornings: Jordan Tannahill",
+            "location": "pages/watching/creative-mornings-jordan-tannahill/index.html",
+            "parent": "n9hNmjgyJj7eoxkeNm5lZ296bJRH7330",
+            "order": 0
+        },
+        {
+            "id": "OwoyTj0zUzgGllx7rALbSwmoABgussfN",
+            "title": "Andrew Stanton: The clues to a great story",
+            "location": "pages/watching/andrew-stanton-the-clues-to-a-great-story/index.html",
+            "parent": "n9hNmjgyJj7eoxkeNm5lZ296bJRH7330",
+            "order": 1
+        },
+        {
+            "id": "t2W9fnZnUo7y0z2Ki2UuRgJc5QCYaHFx",
+            "title": "Listen\n\n",
+            "location": "pages/BX4HwVoiGEEwf63sVeSYVaGNmfLxQSbw/index.html",
+            "parent": "O2iwCT9XrwIVN8jynbHamIz0Gk0Du6wD",
+            "order": 3
+        },
+        {
+            "id": "UiDK5EY3uWqDFq1sRcfSEMONFx9pknmb",
+            "title": "99 Percent Invisible: Of Mice and Men",
+            "location": "pages/listening/99_percent_invisible_of_mice_and_men/index.html",
+            "parent": "t2W9fnZnUo7y0z2Ki2UuRgJc5QCYaHFx",
+            "order": 0
+        },
+        {
+            "id": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "title": "Project\n\n",
+            "location": "pages/jTzx2lP10XJaJMTP03EjNn26R9klbUOH/index.html",
+            "parent": "O2iwCT9XrwIVN8jynbHamIz0Gk0Du6wD",
+            "order": 4
+        },
+        {
+            "id": "Mi1ocEzYdKJrqpeDQ7aL3BjOCmwhHFxw",
+            "title": "Hypertext Narrative introduction",
+            "location": "pages/projects/narrative/hypertext-narrative_civic_imagination_project/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 0
+        },
+        {
+            "id": "ZB0zTSxeyuN6TLrE9m9ViQ0a1MbRc5JR",
+            "title": "Discover: Word-pairs",
+            "location": "pages/projects/narrative/discover_focus_words/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 1
+        },
+        {
+            "id": "seuEyP7PSiAOkrs1uL80coeLFhdUfBD8",
+            "title": "Define: Synopsis",
+            "location": "pages/projects/narrative/define_the_way_it_was/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 2
+        },
+        {
+            "id": "itFpq1hURdpjhwtwvwGROHnrfdba91QQ",
+            "title": "Develop: Story and plot elements",
+            "location": "pages/projects/narrative/develop_story_and_plot/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 3
+        },
+        {
+            "id": "wOvM9BD4hkOBhuBTzIZ93tWy90pTpfDj",
+            "title": "Develop: Characters",
+            "location": "pages/projects/narrative/develop-characters/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 4
+        },
+        {
+            "id": "AG7WG0v6hauUmUQRmq9Jz6Z2qLoBPD1g",
+            "title": "Develop: Hypertext narrative draft 1",
+            "location": "pages/projects/narrative/develop-hypertext-narrative-draft-1/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 5
+        },
+        {
+            "id": "48mIe6APxbP3wQQtN7LG9ysglGsWz2SL",
+            "title": "Tutorials",
+            "location": "pages/projects/narrative/tutorials/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 6
+        },
+        {
+            "id": "SCv1qQP4vRjGv5adp5HaxKf6BVSosayB",
+            "title": "Twine tutorial: Getting started",
+            "location": "pages/topics/twine-tutorial-getting-started/index.html",
+            "parent": "48mIe6APxbP3wQQtN7LG9ysglGsWz2SL",
+            "order": 0
+        },
+        {
+            "id": "jOHEu2HpqifY59YQIoN9UAU7TQvs3gX6",
+            "title": "Develop: Feedback",
+            "location": "pages/projects/narrative/develop-feedback/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 7
+        },
+        {
+            "id": "UmeDyEKBxE8RBC8tx05bqdiL9sHXlLjX",
+            "title": "Deliver: Hypertext narrative draft 2",
+            "location": "pages/projects/narrative/deliver-hypertext-narrative-draft-2/index.html",
+            "parent": "OQGELAD39qqLRLleWkJcscZ7raJugnoN",
+            "order": 8
+        },
+        {
+            "id": "I5cSxAP8e0QqkuY21kpMiMIaWJQkiYJA",
+            "title": "Lesson 4: Open design",
+            "location": "pages/lessons/introduction-open-design/index.html",
+            "parent": null,
+            "order": 4
+        },
+        {
+            "id": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "title": "Topics\n\n",
+            "location": "pages/FtIVPzO3Z8RXhWLL4SQLGOwMiV10dTnp/index.html",
+            "parent": "I5cSxAP8e0QqkuY21kpMiMIaWJQkiYJA",
+            "order": 0
+        },
+        {
+            "id": "wTAdXWsW3Ka7CCNsnPUEQMLidVoWQ5ea",
+            "title": "Open Design",
+            "location": "pages/topics/open_design/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 0
+        },
+        {
+            "id": "6erdHri0XTIksrjSBhcSdgb1Kcta3A03",
+            "title": "Into the Open",
+            "location": "pages/topics/into-the-open/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 1
+        },
+        {
+            "id": "mpdY6XwZbI5x4N8cpIhtVHV1Cudo0OaH",
+            "title": "Orchestral Manoeuvres in Design",
+            "location": "pages/topics/orchestral-manoeuvres-in-design/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 2
+        },
+        {
+            "id": "Rs7RHzojeHZzxu4FleGa5fhX810mYoP4",
+            "title": "Authors and Owners",
+            "location": "pages/topics/authors-and-owners/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 3
+        },
+        {
+            "id": "befN8xHXkVyrvBdABNJX158O2txPpJmg",
+            "title": "The Generative Bedrock of Open Design",
+            "location": "pages/topics/the-generative-bedrock-of-open-design/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 4
+        },
+        {
+            "id": "xM8x5NovFQxJVFBFjjlMNQLHrbQSuUkx",
+            "title": "Design Literacy: Organizing Self-organization",
+            "location": "pages/topics/design-literacy/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 5
+        },
+        {
+            "id": "wJ7SvVGLC7u0LY5zFWIMO6R44AfCdUra",
+            "title": "Teaching Attitudes, Approaches, Structures and Skills",
+            "location": "pages/topics/teaching-attitudes-approaches-structures-and-skills/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 6
+        },
+        {
+            "id": "oGQGEXmbxpfyqBP03tk02VIvJFAJFdBV",
+            "title": "Joris Laarman's Experiments with Open Source Design",
+            "location": "pages/topics/joris-laarmans-experiments-with-open-source-design/index.html",
+            "parent": "aY866wSYuYwtLzGYRIooANOpkUGt5he2",
+            "order": 7
+        },
+        {
+            "id": "zL2ITwGhO2t31N15NxJAuTGVcbimZ5O5",
+            "title": "Watch\n\n",
+            "location": "pages/6HgIi8X16hhiI1lgx3zxScYsgrMSsKTr/index.html",
+            "parent": "I5cSxAP8e0QqkuY21kpMiMIaWJQkiYJA",
+            "order": 1
+        },
+        {
+            "id": "DKLg79eV33VmS57SPViKo7pfOClys6NX",
+            "title": "Open Structures: Thomas Lommee",
+            "location": "pages/watching/open-structures-thomas-lommee/index.html",
+            "parent": "zL2ITwGhO2t31N15NxJAuTGVcbimZ5O5",
+            "order": 0
+        },
+        {
+            "id": "Ip3GViPzKWYVhJpRSrgqlxlMZZtSzv4t",
+            "title": "Readings\n\n",
+            "location": "pages/rXppw5FJ1TfiUolgDG9OvHEbsHNYM3bX/index.html",
+            "parent": "I5cSxAP8e0QqkuY21kpMiMIaWJQkiYJA",
+            "order": 2
+        },
+        {
+            "id": "PFkK8PTHafh0IuC8D7mjPu9O1yvJSKqA",
+            "title": "Chapter 11. Jefferson's Gravestone: Metaphorical Extensions of Design",
+            "location": "pages/reading-reflections/chapter_11_jeffersons_gravestone_metaphorical_extensions_of_d/index.html",
+            "parent": "Ip3GViPzKWYVhJpRSrgqlxlMZZtSzv4t",
+            "order": 0
+        },
+        {
+            "id": "YIbVQ3rRWm0xNQojkiiAqgCYBcNrVMH3",
+            "title": "Chapter 12. Liberty as Knowledge Design",
+            "location": "pages/reading-reflections/chapter_12_liberty_as_knowledge_design/index.html",
+            "parent": "Ip3GViPzKWYVhJpRSrgqlxlMZZtSzv4t",
+            "order": 1
+        },
+        {
+            "id": "nJHjGApwGQJUcZehZYCahDKuBXseDjI2",
+            "title": "Chapter 13. Corporate Redesign and the Business of Knowledge",
+            "location": "pages/reading-reflections/chapter_13_corporate_redesign_and_the_business_of_knowledge/index.html",
+            "parent": "Ip3GViPzKWYVhJpRSrgqlxlMZZtSzv4t",
+            "order": 2
+        },
+        {
+            "id": "iLquABeiwTyQi9xLnEJDH96eOUhxo05J",
+            "title": "Chapter 14. Designing Time",
+            "location": "pages/reading-reflections/chapter_14_designing_time/index.html",
+            "parent": "Ip3GViPzKWYVhJpRSrgqlxlMZZtSzv4t",
+            "order": 3
+        },
+        {
+            "id": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "title": "Project\n\n",
+            "location": "pages/hxf98ZmdPgl3zrMsHT5EBHBPv5exiOZi/index.html",
+            "parent": "I5cSxAP8e0QqkuY21kpMiMIaWJQkiYJA",
+            "order": 3
+        },
+        {
+            "id": "7MJ2ofi29CCP9cLOyIvmkjGky6QXP577",
+            "title": "Open Design Project Introduction",
+            "location": "pages/projects/open_design/open_design_project/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 0
+        },
+        {
+            "id": "spmo3DdimNm1WtDpelqZITK7jHHRwMyY",
+            "title": "Discover: Toy Design Research",
+            "location": "pages/projects/open_design/discover-toy-design-research/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 1
+        },
+        {
+            "id": "y2TGjgnapBe9NqKD8vOmVSO5NZsv3sml",
+            "title": "Discover: Resources",
+            "location": "pages/projects/open_design/discover_resources/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 2
+        },
+        {
+            "id": "Z62r95MPOy6ABnN5kql1qd40KJKYW6FJ",
+            "title": "Discover: Modular Design Research",
+            "location": "pages/projects/open_design/discover-modular-design-research/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 3
+        },
+        {
+            "id": "LvgbmvriRZf38cgg4Dpu2fefBjfzWQXM",
+            "title": "Define: Product pitch",
+            "location": "pages/projects/open_design/define-product-pitch/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 4
+        },
+        {
+            "id": "KNUAXZYs5LRkyaQkkCXEBwIeEKEl9IUc",
+            "title": "Develop: MVP Prototype",
+            "location": "pages/projects/open_design/develop_mvp_prototype/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 5
+        },
+        {
+            "id": "Q8M5vTOmBqL5GU0zHB2Zkeb0eIhpHiQL",
+            "title": "Develop: Instructions",
+            "location": "pages/projects/open_design/develop_instructions/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 6
+        },
+        {
+            "id": "59sLFtUwfCCkKo2RoRPFn43JdgF9AgCI",
+            "title": "Develop: Test",
+            "location": "pages/projects/open_design/develop_user_testing/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 7
+        },
+        {
+            "id": "7wKgSuagiZjw9NIJuaP3odf22EWfP8y7",
+            "title": "Develop: Iterate",
+            "location": "pages/projects/open_design/develop-iterate/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 8
+        },
+        {
+            "id": "U0ZkABRhWmKCVgE0Ztl0f7mxBbNc63R0",
+            "title": "Deliver: Project documentation",
+            "location": "pages/projects/open_design/deliver_open_design/index.html",
+            "parent": "Pd8qkFVpIS3kSjzJOtatlCFeRPeLzNMS",
+            "order": 9
+        },
+        {
+            "id": "EUh1ihxeLyuGXq4i90waWhiwxaZ5B2ze",
+            "title": "Lesson 5: Self design",
+            "location": "pages/lessons/introduction-self-design/index.html",
+            "parent": null,
+            "order": 5
+        },
+        {
+            "id": "8PbBsmYuhXK0drbHZ6ecGDJznMrqQgZ6",
+            "title": "Readings\n\n",
+            "location": "pages/OjPHVxsuo3nLJwlnLUVK6HsSVpHR2MDX/index.html",
+            "parent": "EUh1ihxeLyuGXq4i90waWhiwxaZ5B2ze",
+            "order": 0
+        },
+        {
+            "id": "klRsmGUp1MvboCZ2Uu0F3fvNcYWSyegr",
+            "title": "Chapter 15. The Design of Private Knowledge",
+            "location": "pages/reading-reflections/chapter_15_the_design_of_private_knowledge/index.html",
+            "parent": "8PbBsmYuhXK0drbHZ6ecGDJznMrqQgZ6",
+            "order": 0
+        },
+        {
+            "id": "OfO4LLcBBZCQ10AlvICQPVV9wJD0gYjS",
+            "title": "Listen\n\n",
+            "location": "pages/wrjDo36I0YOKZupy9XUpu08cKMytd0ur/index.html",
+            "parent": "EUh1ihxeLyuGXq4i90waWhiwxaZ5B2ze",
+            "order": 1
+        },
+        {
+            "id": "YDn2MMzgAYxla8KeSFmiqRiPvaSCaDH8",
+            "title": "Creative Mornings: Creativity and the Freedom to Fail",
+            "location": "pages/listening/creative_mornings_creativity_and_the_freedom_to_fa/index.html",
+            "parent": "OfO4LLcBBZCQ10AlvICQPVV9wJD0gYjS",
+            "order": 0
+        },
+        {
+            "id": "2QR4RQdIP13CFbNcJUbiYsXdLnHcUgIK",
+            "title": "Freakonomics: How to Become Great at Just About Anything",
+            "location": "pages/listening/freakonomics-how-to-become-great-at-just-about-anything/index.html",
+            "parent": "OfO4LLcBBZCQ10AlvICQPVV9wJD0gYjS",
+            "order": 1
+        },
+        {
+            "id": "DW9mohYHpqv8LJ8wvOWBU4uRJWnjfVmg",
+            "title": "Activities\n\n",
+            "location": "pages/ITMn2ZWc3dJQMJ21CHesqGRe1wJQFJKL/index.html",
+            "parent": "EUh1ihxeLyuGXq4i90waWhiwxaZ5B2ze",
+            "order": 2
+        },
+        {
+            "id": "hvrZxkBbXFJJvPMUujzPHs0uIj8n7DtO",
+            "title": "Pathway design",
+            "location": "pages/practice/pathway/index.html",
+            "parent": "DW9mohYHpqv8LJ8wvOWBU4uRJWnjfVmg",
+            "order": 0
+        },
+        {
+            "id": "3XHwFJUa9up8pe7X9mjfMIroebAJzzd3",
+            "title": "License",
+            "location": "pages/LICENSE/index.html",
+            "parent": null,
+            "order": 6
         }
     ]
 }
