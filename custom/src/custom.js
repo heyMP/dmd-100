@@ -6,3 +6,9 @@
 // https://github.com/elmsln/lrnwebcomponents/blob/master/elements/example-haxcms-theme/example-haxcms-theme.js
 // don't import that directory, we'd recommend copy and pasting it in here or
 // creating your own theme based on it
+
+let root = document.documentElement;
+let body = document.body
+root.style.setProperty('--haxcms-base-styles-list-padding-bottom', 'none');
+body.style.setProperty('line-height', '1.75');
+body.style.setProperty('--haxcms-base-styles-list-max-width', 'none');
